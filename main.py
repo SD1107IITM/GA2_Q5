@@ -5,7 +5,7 @@ app = Flask(__name__)
 CORS(app)
 
 API_KEY = "ak_svnm5z37mm49cfrrsn8pb1p2"
-MY_EMAIL = "your_actual_login_email@example.com"  # <-- put your real email
+MY_EMAIL = "24f3002514@iitm.study.ac.in"  # <-- put your real email
 
 @app.route("/analytics", methods=["POST"])
 def analytics():
